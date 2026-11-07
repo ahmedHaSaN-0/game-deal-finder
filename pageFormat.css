@@ -1,0 +1,87 @@
+body
+{
+    margin:0px;
+    border:0px;
+    padding:0px;
+
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.headerLinks
+{
+    color: black;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#pageHeaderSection
+{
+    background-color: #9FFF45;
+    height: 154px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+
+#pageHeaderSectionLink
+{
+    display: flex;
+    padding-right: 120px;
+    padding-bottom: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#pageBodySection
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #1E1E1E;
+    color: white;
+    height: 200%;
+    gap: 80px;
+    flex-basis:auto;
+    align-items: center;
+    
+}
+
+.bodyHeader
+{
+    font-size: 52px;
+    
+}
+
+#pageBodySection .websiteDescription
+{
+    flex-shrink: 1;
+    flex-basis:1;
+    width: 50%;
+    padding-left: 50px;
+}
+.inclusive-sans-headerLinksText {
+  font-family: "Inclusive Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+.inter-BodyText {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
