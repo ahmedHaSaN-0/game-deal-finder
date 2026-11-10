@@ -18,7 +18,7 @@ a
     font-weight: 400;
 }
 
-#pageHeaderSection
+.pageHeaderSection
 {
     background-color: #9FFF45;
     height: 154px;
@@ -31,7 +31,7 @@ a
     
 }
 
-#pageHeaderSectionLink
+.pageHeaderSectionLink
 {
     display: flex;
     padding-right: 120px;
@@ -42,13 +42,13 @@ a
     gap: 20px;
 }
 
-#pageBodySection
+.pageBodySection
 {
     display: flex;
     flex-direction: row;
     background-color: #1E1E1E;
     color: white;
-    height: 200%;
+    height: 100%;
     gap: 80px;
     flex-basis:auto;
     align-items: center;
@@ -61,7 +61,7 @@ a
     
 }
 
-#pageBodySection .websiteDescription
+.pageBodySection .websiteDescription
 {
     flex-shrink: 1;
     flex-basis:1;
@@ -83,5 +83,14 @@ a
   font-style: normal;
 }
 
+.tileAdjuster
+{
+    
+}
 
-
+a:hover
+{
+    text-decoration: underline;
+    text-decoration-thickness: 8px;
+    color: #4b4b4b;
+}
