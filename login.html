@@ -11,24 +11,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
     <title>Document</title>
+    <script src="login.js" defer></script>
 </head>
 <body>
-    <script src="login.js"></script>
+    
     <div class="pageHeaderSection">
-        <div>
             <h1 class="inclusive-sans-headerLinksText" style="margin: 0px; padding-bottom: 20px; padding-top: 20px; padding-left:50px; padding-right: 20px; font-size: 32px; font-weight: 400;">
                 GAME DEAL FINDER [LOGIN]
             </h1>
-        </div>
     </div>
     <div class="pageBodySection inclusive-sans-headerLinksText " style="height: 100vh;">
-     <h1>This is a test to see if it works: </h1>
+     <div class="paragraphSection">
+        <h1>Test: </h1>
+    </div>
      <form class="loginForm tileAdjuster" >
         <label for="username" style="font-size: 30px;">Email Address:</label><br>
-        <input type="text" id="emailAddress" name="EmailAddress" style="height: 50px; width: 500px; background-color: darkgrey; border: 0px; border-radius: 12px;"><br><br>
+        <input type="text" class="inputField" id="emailAddress" name="EmailAddress" style=" height: 50px; width: 500px; background-color: darkgrey; border: 0px; border-radius: 12px;"><br><br>
         <label for="password" style="font-size: 30px;">Password:</label><br>
-        <input type="password" id="password" name="Password" style="height: 50px; width: 500px; background-color: darkgrey; border:0px; border-radius: 12px;"><br><br>
-        <input type="submit" class="inclusive-sans-headerLinksText" value="Login" style="font-size: 30px; font-weight: 800px; background-color:greenyellow; color:#1E1E1E; border-radius: 16px; border:0px; width: 200px; height: 60px;">
+        <input type="password" id="password" class="inputField" name="Password" style="height: 50px; width: 500px; background-color: darkgrey; border:0px; border-radius: 12px;"><br><br>
+        <input type="submit" class="inputField inclusive-sans-headerLinksText" value="Login" style=" font-size: 30px; font-weight: 800px; background-color:greenyellow; color:#1E1E1E; border-radius: 16px; border:0px; width: 200px; height: 60px;">
      </form>
     </div>
 </body>

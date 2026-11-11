@@ -1,9 +1,9 @@
+
 body
 {
-    margin:0px;
-    border:0px;
-    padding:0px;
-
+    margin: 0rem;
+    border: 0rem;
+    padding: 0rem;
 }
 
 a
@@ -14,32 +14,54 @@ a
 .headerLinks
 {
     color: black;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 400;
 }
 
 .pageHeaderSection
 {
     background-color: #9FFF45;
-    height: 154px;
+    min-height: 9.625rem;
+    height: auto;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
-    
-    
+}
+
+.pageHeaderSection > div:first-child h1
+{
+    margin: 0rem;
+    padding: 1.25rem 1.25rem 1.25rem 13rem;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 .pageHeaderSectionLink
 {
     display: flex;
-    padding-right: 120px;
-    padding-bottom: 15px;
+    padding-right: 13.5rem;
+    padding-bottom: 0.9375rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
+}
+
+.loginHeader,
+.storeHeader
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.loginHeader img,
+.storeHeader img
+{
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .pageBodySection
@@ -48,49 +70,96 @@ a
     flex-direction: row;
     background-color: #1E1E1E;
     color: white;
-    height: 100%;
-    gap: 80px;
-    flex-basis:auto;
-    align-items: center;
-    
-}
 
-.bodyHeader
-{
-    font-size: 52px;
-    
+    min-height: 100%;
+    gap: 5rem;
+
+    flex-basis: auto;
+    align-items: center;
+    padding: 9.375rem 2.8125rem 12.5rem 3.125rem;
 }
 
 .pageBodySection .websiteDescription
 {
     flex-shrink: 1;
-    flex-basis:1;
+    flex-basis: 50%;
     width: 50%;
-    padding-left: 50px;
-}
-.inclusive-sans-headerLinksText {
-  font-family: "Inclusive Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
+    max-width: 45rem;
+    padding-left: 10em;
 }
 
-
-.inter-BodyText {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
+.websiteDescription p
+{
+    font-weight: 550;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
 }
 
+.joystickImage
+{
+    width: 100%;
+    max-width: 19.8125rem;
+    height: auto;
+    padding-left: 16rem;
+}
+
+.inclusive-sans-headerLinksText
+{
+    font-family: "Inclusive Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.inter-BodyText
+{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.bodyHeader
+{
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    font-weight: 500;
+}
 .tileAdjuster
 {
-    
+    background-color: #6b6b6b;
+    width: 80%;
+    max-width: 43.75rem;
+    min-height: 25rem;
 }
 
 a:hover
 {
     text-decoration: underline;
-    text-decoration-thickness: 8px;
+    text-decoration-thickness: 0.5rem;
     color: #4b4b4b;
+}
+
+.loginForm
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.75rem;
+}
+
+.loginForm .inputField
+{
+    align-self: center;
+}
+
+.loginForm label
+{
+    align-self: start;
+    padding-left: 6.25rem;
+}
+
+.paragraphSection
+{
+    display: flex;
+    flex-direction: column;
 }
