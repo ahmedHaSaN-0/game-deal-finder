@@ -38,6 +38,14 @@ a
     font-weight: 400;
 }
 
+.pageHeaderSection h1
+{
+    margin: 0rem;
+    padding: 1.25rem 1.25rem 1.25rem 13rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
 .pageHeaderSectionLink
 {
     display: flex;
@@ -164,6 +172,22 @@ a:hover
     flex-direction: column;
 }
 
+#emailAddress
+{
+    height: 5.5vh;
+    width: 27.159vw;
+    background-color: darkgrey; 
+    border: 0px; 
+    border-radius: 12px;
+}
+#password
+{
+    height: 5.5vh;
+    width: 27.159vw;
+    background-color: darkgrey; 
+    border: 0px; 
+    border-radius: 12px;
+}
 #emailAddress::placeholder
 {
     font-family: 'Inclusive sans', serif;
