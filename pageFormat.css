@@ -201,3 +201,33 @@ a:hover
     color: white;
     font-size: 16px;
 }
+
+.storeGridSection
+{
+    background-color: #1E1E1E;
+    font-family: 'Inclusive sans', serif;
+    color: white;
+    font-size: 2rem;
+    height:100vh;
+   
+}
+
+.sideTab
+{
+    background-color: #4b4b4b;
+    border-radius: 12px;
+    display:grid;
+    grid-template-columns: 240px;
+    grid-template-rows: 20px 20px 20px 20px;
+    row-gap: 2vh;
+    justify-content: flex-start;
+    padding-left:3rem;
+    align-content: center;
+    width:13%;
+    height:40%;
+}
+.tabElement
+{
+    margin: 0%;
+     
+}
